@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/la"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/product"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:lineSpacingExtra="8sp"
+        android:text="Product"
+        android:textAllCaps="false"
+        android:textColor="#171515"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/categorie"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:text="Categories"
+        android:textColor="#1B1A1A"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/description_produit"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:text="Description"
+        android:textColor="#191818"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Price"
+        android:textColor="#232323"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/vendeur"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="Vendeur"
+        android:textColor="#171616"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/voir_plus"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:background="#2C2A2A"
+        android:text="More"
+        android:textColor="#E6E1E1"
+        android:textStyle="bold" />
+</LinearLayout>
